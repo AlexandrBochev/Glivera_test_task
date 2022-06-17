@@ -663,7 +663,7 @@ img {
 
 /* Header Style End */
 /* ------------------------------------------------------------------------------------------------- */
-/* Intro Start */
+/* Intro Style Start */
 
 .article-block {
   display: flex;
@@ -735,9 +735,9 @@ img {
   margin-left: 10px;
 }
 
-/* Intro End */
+/* Intro Style End */
 /* ------------------------------------------------------------------------------------------------- */
-/* Tags Nav Start */
+/* Tags Nav Style Start */
 
 .tags-nav {
   display: flex;
@@ -796,9 +796,9 @@ img {
   margin-left: 38px;
 }
 
-/* Tags Nav End */
+/* Tags Nav Style End */
 /* ------------------------------------------------------------------------------------------------- */
-/* Blog Start */
+/* Blog Style Start */
 
 .blog {
   display: flex;
@@ -997,4 +997,255 @@ img {
   margin: 50px 0 15px 0;
 }
 
-/* Blog End */
+/* Blog Style End */
+/* ------------------------------------------------------------------------------------------------- */
+/* Sign Up Today Style Start */
+
+.sign-up {
+  width: 100%;
+  background: linear-gradient(135deg, #3D4251 0%, #272B35 100%);
+  padding: 100px 0 60px 0;
+}
+
+.sign-up-title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+.sign-up-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 380px;
+}
+
+.sign-up-card-1 {
+  width: 380px;
+  height: 340px;
+  background: #FFFFFF;
+  border: 1px solid #EBECED;
+  border-radius: 6px;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.501961));
+  padding: 50px 0 40px 0;
+}
+
+.sign-up-card-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #323642;
+}
+
+.card-line {
+  width: 24px;
+  height: 2px;
+  background: #4CB649;
+  margin: 12px auto 16px auto;
+}
+
+.sign-up-card-price {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.card-currency {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #22252E;
+  margin-top: 10px;
+}
+
+.card-price {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -1.5px;
+  color: #22252E;
+  margin: 0 6px;
+}
+
+.card-time {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: #22252E;
+  margin-top: 30px;
+}
+
+.card-line-price {
+  width: 200px;
+  height: 1px;
+  background: #EBECED;
+  margin: 20px auto 0;
+}
+
+.card-description {
+  margin: 15px 0 30px 0;
+}
+
+.card-description-3 {
+  margin: 14px 0 16px 0;
+}
+
+.sign-up-card-description {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #323642;
+}
+
+.sign-up-card-description-1 {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #323642;
+  margin: 26px 0;
+}
+
+.old-price {
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #F24458;
+  margin-right: 8px;
+}
+
+.price-save {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #323642;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-button-sign-up {
+  height: 40px;
+  background: #fff;
+  border: 1px solid #4CB649;
+  border-radius: 30px;
+  color: #4CB649;
+  padding: 10px 74px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.card-button-sign-up:hover {
+  background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  border: none;
+  color: #fff;
+}
+
+.card-button-sign-up:active {
+  background: linear-gradient(180deg, #4CB649 0%, #5DDF5A 100%);
+  border: none;
+  color: #fff;
+}
+
+.card-button-sign-up-2 {
+  height: 40px;
+  background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 10px 74px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.card-button-sign-up-2:hover {
+  background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  border: none;
+  color: #fff;
+}
+
+.card-button-sign-up-2:active {
+  background: linear-gradient(180deg, #4CB649 0%, #5DDF5A 100%);
+  border: none;
+  color: #fff;
+}
+
+.sign-up-card-2 {
+  width: 380px;
+  height: 380px;
+  background: #FFFFFF;
+  border: 4px solid #4CB649;
+  border-radius: 4px;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.501961));
+  padding: 50px 0 60px 0;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pay {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFF;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.how-to {
+  width: 455px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.how-to-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.how-to-pay {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #4CB649;
+  margin-right: 8px;
+}
+
+.arrow-right {
+  transition: all .1s ease 0s;
+}
+
+.how-to-block:hover .arrow-right {
+  transform: translateX(8px);
+}
+
+/* Sign Up Today Style End */
