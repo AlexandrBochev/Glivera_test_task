@@ -1249,3 +1249,71 @@ img {
 }
 
 /* Sign Up Today Style End */
+
+/* Footer Style Start */
+
+.footer {
+  padding: 90px 0 30px 0;
+}
+
+.footer-company-name {
+  margin-bottom: 60px;
+}
+
+.footer-company-name-link {
+  text-decoration: none;
+  font-size: 27px;
+  color: #000;
+}
+
+.footer-bloks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-block-title {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323642;
+  margin-bottom: 18px;
+}
+
+.footer-block-list {
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #889099;
+  margin-bottom: 60px;
+}
+
+.footer-block-article {
+  max-width: 600px;
+}
+
+.footer-block-article-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #889099;
+}
+
+.footer-block-article-2 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #889099;
+  margin-bottom: 40px;
+}
+
+.footer-ligos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 330px;
+}
+
+/* Footer Style End */
