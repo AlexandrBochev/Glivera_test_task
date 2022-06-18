@@ -1282,6 +1282,11 @@ img {
   margin-bottom: 18px;
 }
 
+li a {
+  text-decoration: none;
+  color: #889099;
+}
+
 .footer-block-list {
   list-style: none;
   font-size: 14px;
