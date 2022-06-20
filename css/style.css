@@ -537,7 +537,6 @@ img {
 
 .header-wrapper {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 40px 0 20px 0;
@@ -556,7 +555,6 @@ img {
 
 .header-list {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -816,7 +814,7 @@ img {
 }
 
 .blog-posts {
-  max-width: 740px;
+  min-width: 740px;
 }
 
 .blog-posts-title {
@@ -835,6 +833,7 @@ img {
 .blog-post-image {
   max-width: 280px;
   height: 100%;
+  object-fit: cover;
 }
 
 .blog-post-item {
@@ -1028,14 +1027,13 @@ img {
 
 .sign-up-cards {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 380px;
 }
 
 .sign-up-card-1 {
-  width: 380px;
+  min-width: 380px;
   height: 340px;
   background: #FFFFFF;
   border: 1px solid #EBECED;
@@ -1199,7 +1197,7 @@ img {
 }
 
 .sign-up-card-2 {
-  width: 380px;
+  min-width: 380px;
   height: 380px;
   background: #FFFFFF;
   border: 4px solid #4CB649;
@@ -1277,7 +1275,6 @@ img {
 
 .footer-bloks {
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -1333,7 +1330,7 @@ li a {
 /* Footer Style End */
 
 
-@media (max-width: 1240px) {
+@media (max-width: 1200px) {
   .wrapper {
     max-width: 1010px;
     margin: 0 auto;
@@ -1342,16 +1339,104 @@ li a {
 
   .tags-list-item a {
     margin-right: 30px;
-}
+  }
+
+  .blog-posts {
+    min-width: 600px;
+  }
+
+  .blog-post-image {
+    max-width: 220px;
+  }
+
+  .vertical-line {
+    margin: 0 30px;
+  }
+
+  .sign-up-card-1 {
+    min-width: 312px;
+  }
+
+  .sign-up-card-2 {
+    min-width: 312px;
+  }
+
+  .footer-block-article {
+    max-width: 485px;
+  }
 
 }
 
-@media (max-width: 1032px) {
+@media (max-width: 992px) {
   .wrapper {
     max-width: 790px;
     margin: 0 auto;
     padding: 0 20px;
   }
+
+  .company-name-link {
+    font-size: 16px;
+  }
+
+  .header-link {
+    font-size: 12px;
+  }
+
+  .login {
+    height: 36px;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .get-started {
+    height: 36px;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .article-block-item {
+    height: 320px;
+    margin: 30px;
+  }
+
+  .header-item {
+    margin-right: 20px;
+  }
+
+  .tags-nav {
+    padding: 20px 20px;
+  }
+
+  .tags {
+    font-size: 12px;
+    margin-right: 15px;
+  }
+
+  .tags-list-item a {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  .team-contact {
+    font-size: 12px;
+  }
+
+  .contact {
+    margin-left: 15px;
+  }
+
+  .blog {
+    flex-wrap: wrap;
+  }
+
+  .blog-post-image {
+    max-width: none;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
 }
 
 @media (max-width: 767px) {
