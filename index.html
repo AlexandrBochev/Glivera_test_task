@@ -11,7 +11,7 @@
 <body>
 
   <!-- Headeer Start -->
-  <header class="header" id="header">
+  <header class="header">
     <div class="warning">
       <div class="warning-wrapper">
         <div class="not-protected">
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="warning-cross">
-        <a href="#header" class="close">
+        <a href="#!" class="close">
           <span class="warning-cross-line1"></span>
           <span class="warning-cross-line2"></span>
         </a>
@@ -158,7 +158,9 @@
       <section class="blog">
         <div class="blog-posts">
           <div class="blog-search-title">
-            <h2 class="blog-posts-title">Recent posts</h2>
+            <div class="posts-title">
+              <h2 class="blog-posts-title">Recent posts</h2>
+            </div>
             <div class="search-1">
               <img src="./img/svg/search.svg" alt="search" class="search-button">
               <input class="search-blog" type="text" placeholder="Search blog">
@@ -425,13 +427,15 @@
 
           <div class="logos">
             <p class="pay">Ways to pay:</p>
-            <img src="./img/svg/logo-1.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-2.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-3.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-4.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-5.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-6.svg" alt="Logo" class="logo">
-            <img src="./img/svg/logo-7.svg" alt="Logo" class="logo">
+            <div class="logos-group">
+              <img src="./img/svg/logo-1.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-2.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-3.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-4.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-5.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-6.svg" alt="Logo" class="logo">
+              <img src="./img/svg/logo-7.svg" alt="Logo" class="logo">
+            </div>
           </div>
 
           <div class="how-to">
@@ -452,7 +456,7 @@
   <!-- Main Content End -->
 
   <!-- Footer Start -->
-  <div class="footer">
+  <footer class="footer">
     <div class="wrapper">
       <div class="footer-company-name">
         <a href="/" class="footer-company-name-link">
@@ -491,14 +495,16 @@
           </ul>
         </div>
 
-        <div class="footer-block">
-          <h4 class="footer-block-title">LEGAL</h4>
-          <ul class="footer-block-list">
-            <li><a href="#!">Terms Of Service</a></li>
-            <li><a href="#!">Privacy Policy</a></li>
-            <li><a href="#!">DMCA Policy</a></li>
-            <li><a href="#!">Export Control Policy</a></li>
-          </ul>
+        <div class="footer-block-1">
+          <div>
+            <h4 class="footer-block-title">LEGAL</h4>
+            <ul class="footer-block-list">
+              <li><a href="#!">Terms Of Service</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+              <li><a href="#!">DMCA Policy</a></li>
+              <li><a href="#!">Export Control Policy</a></li>
+            </ul>
+          </div>
           <div class="footer-block-social-1">
             <h4 class="footer-block-title-1">SOCIAL</h4>
             <div class="footer-ligos-1">
@@ -544,7 +550,7 @@
 
       </div>
     </div>
-  </div>
+  </footer>
   <!-- Footer End -->
   
   <script src="./js/main.js"></script>
