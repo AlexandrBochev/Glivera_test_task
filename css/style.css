@@ -542,6 +542,11 @@ img {
   margin: 40px 0 20px 0;
 }
 
+.company-name {
+ display: flex; 
+ align-items: center;
+}
+
 .company-name-link {
   text-decoration: none;
   font-size: 18px;
@@ -1278,7 +1283,7 @@ img {
 }
 
 /* Sign Up Today Style End */
-
+/* ------------------------------------------------------------------------------------------------- */
 /* Footer Style Start */
 
 .footer {
@@ -1374,7 +1379,8 @@ li a {
 }
 
 /* Footer Style End */
-
+/* ------------------------------------------------------------------------------------------------- */
+/* Media Start */
 
 @media (max-width: 1200px) {
   .wrapper {
@@ -1555,4 +1561,96 @@ li a {
     margin: 0 auto;
     padding: 0 20px;
   }
+
+  .header-burger {
+    width: 24px;
+    height: 16px;
+    position: relative;
+    margin-right: 24px;
+  }
+  
+  .burger-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #22252E;
+  }
+  
+  .burger-line-first {
+    top: 0;
+  }
+  
+  .burger-line-second {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .burger-line-third {
+    bottom: 0;
+  }
+
+  .header-nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 10;
+    padding: 60px 60px;
+    margin-top: 0;
+    transform: translateX(-100%);
+    transition: .2s all linear;
+  }
+
+  .header-nav-active {
+    transform: translateX(0);
+  }
+
+  .header-list {
+    display: block;
+  }
+
+  .header-item {
+    width: 100%;
+  }
+
+  .header-links {
+    margin-bottom: 20px;
+  }
+
+  .header-link {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .header-nav-close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 40px;
+    z-index: 11;
+  }
+
+  .header-nav-close-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #22252E;
+    position: absolute;
+    top: 50%;
+  }
+
+  .header-nav-close-line:first-child {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .header-nav-close-line:last-child {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
 }
+
+/* Media End */
