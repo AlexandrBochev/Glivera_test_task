@@ -618,6 +618,10 @@ img {
   transform: scale(1);
 }
 
+.header-link-active .line {
+  transform: scale(1);
+}
+
 .login {
   min-width: 92px;
   height: 40px;
