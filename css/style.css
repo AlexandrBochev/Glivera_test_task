@@ -1539,7 +1539,7 @@ li a {
   }
 
   .logo {
-    margin-left: 18px;
+    margin: auto 0 auto 18px;
     max-width: 80px;
   }
 
@@ -1835,13 +1835,8 @@ li a {
 
   .logo {
     display: block;
-    margin-left: 0;
-    margin-right: 26px;
+    margin: auto 26px auto 0;
     max-width: 100%;
-  }
-
-  .logo:last-child {
-    margin-right: 0;
   }
 
   .how_to {
