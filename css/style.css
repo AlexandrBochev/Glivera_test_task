@@ -1492,7 +1492,8 @@ li a {
   }
 
   .blog {
-    flex-wrap: wrap;
+    display: block;
+    /* flex-wrap: wrap; */
   }
 
   .blog_post_image {
@@ -1707,6 +1708,10 @@ li a {
 
   .tags_nav {
     display: none;
+  }
+
+  .blog {
+    display: block;
   }
 
   .blog_posts {
